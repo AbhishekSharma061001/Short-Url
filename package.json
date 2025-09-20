@@ -1,0 +1,22 @@
+{
+  "name": "short-url",
+  "version": "1.0.0",
+  "description": "Generate a short url over a given url and also we cantracks the clicks on it.",
+  "license": "ISC",
+  "author": "Abhishek Sharma",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.1",
+    "nanoid": "^5.1.5",
+    "nodemon": "^3.1.10",
+    "uuid": "^13.0.0"
+  }
+}
